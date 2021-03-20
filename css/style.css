@@ -41,6 +41,8 @@ ul {
 }
 .page-header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .navigation-list {
@@ -50,10 +52,6 @@ ul {
   margin-top: 0px;
 
   display: flex;
-}
-.navigation-list li {
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .navigation-list li {
@@ -71,8 +69,6 @@ ul {
 .nav-conteiner {
   display: flex;
   align-items: center;
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
 }
 .addres-list {
   display: flex;
@@ -136,12 +132,11 @@ ul {
 .link-active:focus {
   color: var(--title-color);
 }
-/* секция героя */
-.hero {
-  padding-bottom: 200px;
-  padding-top: 200px;
-}
+
 .hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
@@ -153,8 +148,9 @@ ul {
 .hero-title {
   color: var(--complementary-color);
   font-weight: 900;
+  font-style: normal;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -203,15 +199,20 @@ ul {
 }
 .footer-section {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
+.whole-logo-footer {
+  margin-bottom: 20px;
+}
+
 .list-links {
   list-style-type: none;
   font-size: 14px;
   line-height: 1.71;
 }
-.list-links li {
-  display: block;
-}
+
 .list-links li:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -219,13 +220,20 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-address {
   color: var(--complementary-color);
   text-decoration: none;
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
+
 .button {
   color: var(--title-color);
   background-color: var(--buttons-color);
@@ -246,7 +254,7 @@ ul {
 .button-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
 
   list-style-type: none;
   font-family: inherit;
@@ -364,13 +372,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
-.logo-footer-position {
-  padding-top: 60px;
-  padding-bottom: 20px;
-}
-.address-footer-position {
-  padding-bottom: 60px;
-}
+
 img {
   display: block;
   max-width: 100%;
@@ -379,10 +381,6 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.section-end {
-  padding-top: 94px;
-  padding-bottom: 148px;
 }
 .section-no {
   padding-bottom: 94px;
